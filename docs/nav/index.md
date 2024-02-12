@@ -10,7 +10,7 @@ import { NAV_DATA } from './data'
 
 # 前端导航
 
-<MNavLinks v-for="{title, items} in NAV_DATA" :title="title" :items="items"/>
+<MNavLinks v-for="{title, items} in NAV_DATA" :title="title" :items="items"/> 
 
 <br />
 

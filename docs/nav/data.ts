@@ -7,7 +7,7 @@ type NavData = {
 
 export const NAV_DATA: NavData[] = [
   {
-    title: '常用工具',
+    title: '个人用户',
     items: [
       {
         icon: 'https://caniuse.com/img/favicon-128.png',

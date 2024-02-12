@@ -59,7 +59,7 @@ export const nav: DefaultTheme.Config['nav'] = [
 
 **2.2 社交链接&页脚**：
 
-修改位置：/docs/nav/index.md
+修改位置：/docs/nav/index.md  /docs/.vitpress/config.ts
 
 ```ts
 export default defineConfig({

@@ -1,15 +1,26 @@
 import type { DefaultTheme } from 'vitepress'
 
 export const nav: DefaultTheme.Config['nav'] = [
-  { text: '前端导航', link: '/nav/' },
-  { text: '茂茂主页', link: 'https://fe-mm.com' },
   {
-    text: '茂茂物语',
-    link: 'https://notes.fe-mm.com',
+    text: '主页',
+    link: 'https://chatplus.top'
   },
-  { text: 'mmPlayer', link: 'https://netease-music.fe-mm.com' },
   {
-    text: '油猴脚本',
-    link: 'https://github.com/maomao1996/tampermonkey-scripts',
+    text: '个人用户',
+    link: 'https://upoe.cc' },
+  {
+    text: '开发者用户',
+    // TODO change to target url
+    link: 'https://chatplus.top/developers',
+  },
+  {
+    // TODO change to target url
+    text: '套餐说明',
+    link: 'https://upoe.cc'
+  },
+  {
+    text: '联系我们',
+    // TODO change to target url
+    link: 'https://chatplus.top/'
   },
 ]
