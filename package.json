@@ -44,5 +44,8 @@
     "*.{js,jsx,tsx,vue,css,scss,less,md,json}": [
       "prettier --write"
     ]
+  },
+  "dependencies": {
+    "typescript": "^5.3.3"
   }
 }

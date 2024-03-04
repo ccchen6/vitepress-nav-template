@@ -40,8 +40,8 @@ export default defineConfig({
     // socialLinks: [{ icon: 'github', link: 'https://github.com/maomao1996/vitepress-nav-template' }],
 
     footer: {
-      message: '',
-      copyright: 'Copyright © 2024-present',
+      message: 'upoe home',
+      copyright: 'Copyright © 2024-upoe',
     },
 
     darkModeSwitchLabel: '外观',

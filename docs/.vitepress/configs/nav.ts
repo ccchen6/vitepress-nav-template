@@ -1,26 +1,27 @@
 import type { DefaultTheme } from 'vitepress'
 
 export const nav: DefaultTheme.Config['nav'] = [
+
   {
-    text: '主页',
-    link: 'https://chatplus.top'
+    text: '大语言模型',
+    link: '/fe/upoe/user'
   },
   {
-    text: '个人用户',
-    link: 'https://upoe.cc' },
+    text: '工作助手',
+    link: '/nav', // todo
+  },
+  {
+    text: '爆款应用',
+    link: '/nav',  // todo
+  },
   {
     text: '开发者用户',
     // TODO change to target url
-    link: 'https://chatplus.top/developers',
+    link: '/fe/upoe/dev',
   },
   {
+    text: '资费说明',
     // TODO change to target url
-    text: '套餐说明',
-    link: 'https://upoe.cc'
-  },
-  {
-    text: '联系我们',
-    // TODO change to target url
-    link: 'https://chatplus.top/'
+    link: '/fe/upoe/payment',
   },
 ]
